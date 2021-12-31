@@ -2,7 +2,7 @@
 # Wearables project using the UCI HAR data set for the Coursera course 'Getting and Cleaning data'
 
 As requested in the assignment, this repo contains the:
-1) tidy generated data set (wearable_means.csv),
+1) tidy generated data set (wearable_means.txt),
 2) script for downloading, manipulating, and otherwise tidying the above data set (run_analysis.R),
 3) code book describing the tidy data set (CodeBook.md)
 4) readme (aka this file)

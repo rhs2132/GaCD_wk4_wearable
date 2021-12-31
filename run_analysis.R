@@ -79,7 +79,7 @@ names(summ_labels) <- summ_cols
 summ_data %<>% labelled::set_variable_labels(.labels = summ_labels)
 
 ## Write the tidied data set (albeit without labels) to file
-summ_data %>% write_csv("wearable_means.csv")
+summ_data %>% write.table("wearable_means.txt", row.name = FALSE)
 
 ## Generate the code book
 makeCodebook(summ_data, reportTitle = "Codeboook for summary data calculated from the UCI HAR data set for the Coursera Course 'Getting and Cleaning Data'", file = "CodeBook.Rmd")
