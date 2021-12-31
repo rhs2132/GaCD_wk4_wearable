@@ -28,7 +28,14 @@ The data set examined has the following dimensions:
 # Data manipulation summary
 
 The data set was originally sourced from UCI HAR and tidied into the
-presented format
+presented format. The training and test data sets were processed in
+parallel by associating activity names to levels as described in
+activity\_labels.txt and cleaning up variable names (extended
+descriptions added to labels after merging) before identifying and
+extracting only variables for which the mean and standard deviations are
+present. The combined data set was then used to calculate the average of
+each variable (mean and standard deviation) for each activity and
+subject.
 
 # Codebook summary table
 
